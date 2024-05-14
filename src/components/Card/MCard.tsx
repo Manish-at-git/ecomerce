@@ -39,7 +39,7 @@ const MCard: React.FC<MCardProps> = ({ className, data }) => {
         <Image
           alt="Card background"
           className="object-cover"
-          src={Images.productImage.src}
+          src={data?.image?.src}
           width={200}
           height={220}
         />
@@ -49,7 +49,7 @@ const MCard: React.FC<MCardProps> = ({ className, data }) => {
         <h4 className="text-[18px]">{data?.title}</h4>
         <div className="flex gap-4">
           <p className="text-[#DB4444] font-medium">${data?.offerPrice}</p>
-          <s className="text-black/50 font-medium">${data?.price}</s>
+          <s className="text-black/50 font-medium">{ data?.price ? `${data?.price}`: ``}</s>
         </div>
         <div className="flex gap-1 items-center">
           {[0, 1, 2, 3, 4].map((item) => {

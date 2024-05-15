@@ -6,7 +6,6 @@ import CategoryHeader from "../CategoryHeader";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import "./styles.css";
 import MCard from "../Card/MCard";
 import Image from "next/image";
 import { Images } from "@/constants";

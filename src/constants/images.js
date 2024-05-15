@@ -8,8 +8,15 @@ import productImage7 from "../assets/images/productImage7.svg";
 import productImage8 from "../assets/images/productImage8.svg";
 import productImage9 from "../assets/images/productImage9.svg";
 
-import arrowLeft from "../assets/icons/arrowLeft.png";
-import arrowRight from "../assets/icons/arrowRight.png";
+import playStation from "../assets/images/payStation.svg";
+import womenCollection from "../assets/images/womenCollection.svg";
+import speakers from "../assets/images/speakers.svg";
+import perfumes from "../assets/images/perfumes.svg";
+import ellipse from "../assets/images/ellipse.svg";
+import banner1 from "../assets/images/banner1.png";
+
+import arrowLeft from "../assets/icons/arrowLeft.svg";
+import arrowRight from "../assets/icons/arrowRight.svg";
 import heart from "../assets/icons/heart.png";
 import quickView from "../assets/icons/quickView.png";
 import star from "../assets/icons/star.png";
@@ -24,22 +31,6 @@ import truck from "../assets/images/truck.svg";
 import service from "../assets/images/service.svg";
 import guarantee from "../assets/images/guarantee.svg";
 import dropdown from "../assets/icons/dropdown.svg";
-import ellipse from "../assets/images/ellipse.svg";
-
-import TwoGirl from "../assets/images/TwoGirls.png";
-import Dollar from "../assets/images/Dollar.svg";
-import BagDollarSvg from "../assets/images/BagDollarSvg.svg";
-import BagSvg from "../assets/images/BagSvg.svg";
-import HomeSvg from "../assets/images/HomeSvg.svg";
-import playstore from "../assets/images/playstore.jpg";
-import appstore from "../assets/images/appstore.png";
-import Qrcode from "../assets/images/Qrcode.png";
-import Insta from "../assets/images/Insta.svg";
-import LinkedIn from "../assets/images/LinkedIn.svg";
-import Twitter from "../assets/images/Twitter.svg";
-import FaceBook from "../assets/images/FaceBook.svg";
-import SignUpSizeImg from "../assets/images/SignUpSizeImg.png";
-import Google from "../assets/images/Google.png";
 
 const Images = {
   Google,
@@ -77,11 +68,11 @@ const Images = {
   productImage9,
   dropdown,
   ellipse,
-  TwoGirl,
-  HomeSvg,
-  BagSvg,
-  BagDollarSvg,
-  Dollar,
+  playStation,
+  womenCollection,
+  speakers,
+  perfumes,
+  banner1,
 };
 
 export default Images;

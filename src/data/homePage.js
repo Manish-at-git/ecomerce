@@ -37,6 +37,24 @@ export const todays = [
     image: Images.productImage4,
     discount: "-25",
   },
+  {
+    title: "IPS LCD Gaming Monitor",
+    offerPrice: 370,
+    price: 400,
+    rating: 5,
+    ratingCount: 99,
+    image: Images.productImage3,
+    discount: "-30",
+  },
+  {
+    title: "S-Series Comfort Chair ",
+    offerPrice: 375,
+    price: 400,
+    rating: 4,
+    ratingCount: 75,
+    image: Images.productImage4,
+    discount: "-25",
+  },
 ];
 
 export const browseByCategory = [

@@ -21,7 +21,7 @@ const Service = () => {
     },
   ];
   return (
-    <div className="flex gap-20 my-5 mx-auto">
+    <div className="flex gap-20 my-6 mx-auto justify-center">
       {list.map((item) => {
         return (
           <div className="px-5 py-2 flex flex-col items-center justify-center gap-5">

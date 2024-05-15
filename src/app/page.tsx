@@ -7,8 +7,11 @@ import Enhance from "@/components/Enhance";
 import MInput from "@/components/Input/MInput";
 import Service from "@/components/Service";
 import Section from "@/components/Section";
+import SectionSlider from "@/components/SectionSlider";
 import Sidenav from "@/components/SideNav";
-import NotificationBar from "@/components/NotificationBar"
+import NotificationBar from "@/components/NotificationBar";
+import NewArrival from "@/components/NewArrival";
+import BannerSlider from "@/components/BannerSlider";
 
 import { Images } from "@/constants";
 import {
@@ -37,13 +40,25 @@ export default function Home() {
       <NotificationBar />
       <NavbarComponent />
       <div className="px-24 w-full">
-        <div className="flex gap-10 px-10 mb-16"><Sidenav /></div>
-        <Section
+        <div className="flex gap-10 px-10 mb-16">
+          <Sidenav />
+          <BannerSlider
+            list={[
+              { name: "phone", img: Images.banner1 },
+              { name: "phone", img: Images.banner1 },
+              { name: "phone", img: Images.banner1 },
+              { name: "phone", img: Images.banner1 },
+              { name: "phone", img: Images.banner1 },
+            ]}
+          />
+        </div>
+        <SectionSlider
           title="Flash Sale"
           subTitle="Today's"
           buttonText="View More"
           data={todays}
         />
+        
         <hr className="border" />
         <div className="!px-10 !py-6 my-10 w-full ">
           <MBrowseByCategory
@@ -69,6 +84,13 @@ export default function Home() {
           data={ourProducts}
           // isMinimalCard={true}
         />
+        <NewArrival
+          title="New Arrival"
+          subTitle="Featured"
+          showButton={false}
+          buttonText=""
+        />
+        <hr className="my-3" />
         <Service />
       </div>
     </main>

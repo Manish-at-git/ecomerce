@@ -8,8 +8,15 @@ import productImage7 from "../assets/images/productImage7.svg";
 import productImage8 from "../assets/images/productImage8.svg";
 import productImage9 from "../assets/images/productImage9.svg";
 
-import arrowLeft from "../assets/icons/arrowLeft.png";
-import arrowRight from "../assets/icons/arrowRight.png";
+import playStation from "../assets/images/payStation.svg";
+import womenCollection from "../assets/images/womenCollection.svg";
+import speakers from "../assets/images/speakers.svg";
+import perfumes from "../assets/images/perfumes.svg";
+import ellipse from "../assets/images/ellipse.svg";
+import banner1 from "../assets/images/banner1.png";
+
+import arrowLeft from "../assets/icons/arrowLeft.svg";
+import arrowRight from "../assets/icons/arrowRight.svg";
 import heart from "../assets/icons/heart.png";
 import quickView from "../assets/icons/quickView.png";
 import star from "../assets/icons/star.png";
@@ -19,12 +26,11 @@ import gaming from "../assets/images/gaming.svg";
 import headPhone from "../assets/images/headPhone.svg";
 import watch from "../assets/images/watch.svg";
 import camera from "../assets/images/camera.svg";
-import enhance from "../assets/images/enhance.svg"
-import truck from "../assets/images/truck.svg"
-import service from "../assets/images/service.svg"
-import guarantee from "../assets/images/guarantee.svg"
-import dropdown from "../assets/icons/dropdown.svg"
-import ellipse from "../assets/images/ellipse.svg";
+import enhance from "../assets/images/enhance.svg";
+import truck from "../assets/images/truck.svg";
+import service from "../assets/images/service.svg";
+import guarantee from "../assets/images/guarantee.svg";
+import dropdown from "../assets/icons/dropdown.svg";
 
 const Images = {
   productImage,
@@ -52,7 +58,12 @@ const Images = {
   productImage8,
   productImage9,
   dropdown,
-  ellipse
+  ellipse,
+  playStation,
+  womenCollection,
+  speakers,
+  perfumes,
+  banner1,
 };
 
 export default Images;

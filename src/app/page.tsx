@@ -9,6 +9,9 @@ import Service from "@/components/Service";
 import Section from "@/components/Section";
 import Sidenav from "@/components/SideNav";
 import NotificationBar from "@/components/NotificationBar"
+import About from "@/components/About/index";
+import ProductList from "@/components/ProductList/index";
+import Profile from '@/components/Profile/index'
 
 import { Images } from "@/constants";
 import {
@@ -32,9 +35,13 @@ export default function Home() {
       />
       <div className="px-10 w-full"><Enhance /></div>
       <Service /> */}
+      <NavbarComponent />
       {/* <NavbarComponent /> */}
-      {/* <NavbarComponent /> */}
-      <NotificationBar />
+      <Profile />
+      <ProductList/>
+      <About />
+      
+      {/* <NotificationBar />
       <NavbarComponent />
       <div className="px-24 w-full">
         <div className="flex gap-10 px-10 mb-16"><Sidenav /></div>
@@ -70,7 +77,7 @@ export default function Home() {
           // isMinimalCard={true}
         />
         <Service />
-      </div>
+      </div> */}
     </main>
   );
 }

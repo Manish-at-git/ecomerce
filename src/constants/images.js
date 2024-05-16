@@ -26,6 +26,12 @@ import guarantee from "../assets/images/guarantee.svg"
 import dropdown from "../assets/icons/dropdown.svg"
 import ellipse from "../assets/images/ellipse.svg";
 
+// import TwoGirl from "../assets/images/TwoGirl.jpg";
+import Dollar from "../assets/images/Dollar.svg";
+import BagDollarSvg from "../assets/images/BagDollarSvg.svg";
+import BagSvg from "../assets/images/BagSvg.svg";
+import HomeSvg from "../assets/images/HomeSvg.svg";
+
 const Images = {
   productImage,
   arrowLeft,
@@ -52,7 +58,12 @@ const Images = {
   productImage8,
   productImage9,
   dropdown,
-  ellipse
+  ellipse,
+  // TwoGirl,
+  HomeSvg,
+  BagSvg,
+  BagDollarSvg,
+  Dollar,
 };
 
 export default Images;

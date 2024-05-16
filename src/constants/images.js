@@ -32,6 +32,12 @@ import service from "../assets/images/service.svg";
 import guarantee from "../assets/images/guarantee.svg";
 import dropdown from "../assets/icons/dropdown.svg";
 
+// import TwoGirl from "../assets/images/TwoGirl.jpg";
+import Dollar from "../assets/images/Dollar.svg";
+import BagDollarSvg from "../assets/images/BagDollarSvg.svg";
+import BagSvg from "../assets/images/BagSvg.svg";
+import HomeSvg from "../assets/images/HomeSvg.svg";
+
 const Images = {
   Google,
   SignUpSizeImg,
@@ -68,11 +74,19 @@ const Images = {
   productImage9,
   dropdown,
   ellipse,
+<<<<<<< HEAD
   playStation,
   womenCollection,
   speakers,
   perfumes,
   banner1,
+=======
+  // TwoGirl,
+  HomeSvg,
+  BagSvg,
+  BagDollarSvg,
+  Dollar,
+>>>>>>> c821dc8 (About Product Page Is Completed)
 };
 
 export default Images;

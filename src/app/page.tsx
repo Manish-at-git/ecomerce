@@ -7,11 +7,11 @@ import Enhance from "@/components/Enhance";
 import MInput from "@/components/Input/MInput";
 import Service from "@/components/Service";
 import Section from "@/components/Section";
-import SectionSlider from "@/components/SectionSlider";
 import Sidenav from "@/components/SideNav";
-import NotificationBar from "@/components/NotificationBar";
-import NewArrival from "@/components/NewArrival";
-import BannerSlider from "@/components/BannerSlider";
+import NotificationBar from "@/components/NotificationBar"
+import About from "@/components/About/index";
+import ProductList from "@/components/ProductList/index";
+import Profile from '@/components/Profile/index'
 
 import { Images } from "@/constants";
 import {
@@ -40,30 +40,17 @@ export default function Home() {
       <Profile />
       <ProductList/>
       <About />
-      <Footer />
       
       {/* <NotificationBar />
       <NavbarComponent />
       <div className="px-24 w-full">
-        <div className="flex gap-10 px-10 mb-16">
-          <Sidenav />
-          <BannerSlider
-            list={[
-              { name: "phone", img: Images.banner1 },
-              { name: "phone", img: Images.banner1 },
-              { name: "phone", img: Images.banner1 },
-              { name: "phone", img: Images.banner1 },
-              { name: "phone", img: Images.banner1 },
-            ]}
-          />
-        </div>
-        <SectionSlider
+        <div className="flex gap-10 px-10 mb-16"><Sidenav /></div>
+        <Section
           title="Flash Sale"
           subTitle="Today's"
           buttonText="View More"
           data={todays}
         />
-        
         <hr className="border" />
         <div className="!px-10 !py-6 my-10 w-full ">
           <MBrowseByCategory
@@ -89,13 +76,6 @@ export default function Home() {
           data={ourProducts}
           // isMinimalCard={true}
         />
-        <NewArrival
-          title="New Arrival"
-          subTitle="Featured"
-          showButton={false}
-          buttonText=""
-        />
-        <hr className="my-3" />
         <Service />
       </div> */}
     </main>

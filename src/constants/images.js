@@ -33,7 +33,7 @@ import guarantee from "../assets/images/guarantee.svg";
 import dropdown from "../assets/icons/dropdown.svg";
 import ellipse from "../assets/images/ellipse.svg";
 
-// import TwoGirl from "../assets/images/TwoGirl.jpg";
+import TwoGirl from "../assets/images/TwoGirls.png";
 import Dollar from "../assets/images/Dollar.svg";
 import BagDollarSvg from "../assets/images/BagDollarSvg.svg";
 import BagSvg from "../assets/images/BagSvg.svg";
@@ -45,8 +45,12 @@ import Insta from "../assets/images/Insta.svg";
 import LinkedIn from "../assets/images/LinkedIn.svg";
 import Twitter from "../assets/images/Twitter.svg";
 import FaceBook from "../assets/images/FaceBook.svg";
+import SignUpSizeImg from "../assets/images/SignUpSizeImg.png";
+import Google from "../assets/images/Google.png";
 
 const Images = {
+  Google,
+  SignUpSizeImg,
   FaceBook,
   Twitter,
   LinkedIn,
@@ -85,6 +89,11 @@ const Images = {
   speakers,
   perfumes,
   banner1,
+  TwoGirl,
+  HomeSvg,
+  BagSvg,
+  BagDollarSvg,
+  Dollar,
 };
 
 export default Images;

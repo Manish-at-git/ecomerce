@@ -12,6 +12,7 @@ import NotificationBar from "@/components/NotificationBar"
 import About from "@/components/About/index";
 import ProductList from "@/components/ProductList/index";
 import Profile from '@/components/Profile/index'
+import Footer from '@/components/Footer/index'
 
 import { Images } from "@/constants";
 import {
@@ -40,6 +41,7 @@ export default function Home() {
       <Profile />
       <ProductList/>
       <About />
+      <Footer />
       
       {/* <NotificationBar />
       <NavbarComponent />

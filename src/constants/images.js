@@ -31,16 +31,22 @@ import truck from "../assets/images/truck.svg";
 import service from "../assets/images/service.svg";
 import guarantee from "../assets/images/guarantee.svg";
 import dropdown from "../assets/icons/dropdown.svg";
+import ellipse from "../assets/images/ellipse.svg";
 
 // import TwoGirl from "../assets/images/TwoGirl.jpg";
 import Dollar from "../assets/images/Dollar.svg";
 import BagDollarSvg from "../assets/images/BagDollarSvg.svg";
 import BagSvg from "../assets/images/BagSvg.svg";
 import HomeSvg from "../assets/images/HomeSvg.svg";
+import playstore from "../assets/images/playstore.jpg";
+import appstore from "../assets/images/appstore.png";
+import Qrcode from "../assets/images/Qrcode.png";
+import Insta from "../assets/images/Insta.svg";
+import LinkedIn from "../assets/images/LinkedIn.svg";
+import Twitter from "../assets/images/Twitter.svg";
+import FaceBook from "../assets/images/FaceBook.svg";
 
 const Images = {
-  Google,
-  SignUpSizeImg,
   FaceBook,
   Twitter,
   LinkedIn,
@@ -74,19 +80,11 @@ const Images = {
   productImage9,
   dropdown,
   ellipse,
-<<<<<<< HEAD
   playStation,
   womenCollection,
   speakers,
   perfumes,
   banner1,
-=======
-  // TwoGirl,
-  HomeSvg,
-  BagSvg,
-  BagDollarSvg,
-  Dollar,
->>>>>>> c821dc8 (About Product Page Is Completed)
 };
 
 export default Images;

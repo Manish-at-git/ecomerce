@@ -42,7 +42,8 @@ const ProductList = () => {
           return {
             ...item,
             quantity: quantity,
-            subtotal: quantity * item.price,
+            // subtotal: quantity * item.price,
+            subtotal: isNaN(quantity) || isNaN(item.price) ? 0 : quantity * item.price,
           };
         }
         return item;

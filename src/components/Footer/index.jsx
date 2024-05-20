@@ -25,21 +25,6 @@ const footerData = [
     title: "Quick Link",
     details: ["Privacy Policy", "Terms Of Use", "FAQ", "Contact"],
   },
-  // {
-  //   title: "Download App",
-  //   details: ["Save $3 with App New User Only"],
-  //   images: [
-  //     { src: Images.Qrcode, width: "95%", height: "95%" },
-  //     { src: Images.playstore, width: "100%", height: "100%" },
-  //     { src: Images.appstore, width: "100%", height: "100%" },
-  //   ],
-  //   socials: [
-  //     { src: Images.FaceBook },
-  //     { src: Images.Twitter },
-  //     { src: Images.Insta },
-  //     { src: Images.LinkedIn },
-  //   ],
-  // },
 ];
 
 const index = () => {

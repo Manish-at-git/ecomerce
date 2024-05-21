@@ -31,7 +31,6 @@ import truck from "../assets/images/truck.svg";
 import service from "../assets/images/service.svg";
 import guarantee from "../assets/images/guarantee.svg";
 import dropdown from "../assets/icons/dropdown.svg";
-import ellipse from "../assets/images/ellipse.svg";
 
 import TwoGirl from "../assets/images/TwoGirls.png";
 import Dollar from "../assets/images/Dollar.svg";

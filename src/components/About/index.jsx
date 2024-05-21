@@ -36,7 +36,7 @@ const About = () => {
     <div className="flex justify-between items-center ">
       <AboutContent />
       <div className="md:w-1/2">
-        <Image src={Images.TwoGirl} width={"100%"} height={"100%"} />
+        <Image src={Images.TwoGirl} width={"100%"} height={"100%"} alt=""/>
       </div>
     </div>
     {/* 2nd Div */}
@@ -53,7 +53,7 @@ export default About;
 
 const CartContent = ({ icon, Price, description }) => (
   <div className="flex w-full flex-col items-center ">
-    <Image src={icon} width={60} height={50} />
+    <Image src={icon} width={60} height={50} alt=""/>
     <div className=" flex flex-col items-center justify-center mt-5">
       <h1 className="font-bold text-3xl">{Price}</h1>
       <p className="font-normal text-sm">{description}</p>

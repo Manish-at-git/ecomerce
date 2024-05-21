@@ -1,5 +1,4 @@
 "use client";
-
 import MBrowseByCategory from "@/components/BrowseByCategory";
 import NavbarComponent from "@/components/Navbar";
 import MButton from "@/components/Buttons/MButton";

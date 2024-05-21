@@ -12,6 +12,8 @@ import About from "@/components/About/index";
 import ProductList from "@/components/ProductList/index";
 import Profile from '@/components/Profile/index'
 import Footer from '@/components/Footer/index'
+import { Provider } from "react-redux";
+import Login from "@/components/Login/index"
 
 import { Images } from "@/constants";
 import {
@@ -20,6 +22,7 @@ import {
   thisMonth,
   todays,
 } from "@/data/homePage";
+import { store } from "./stores";
 
 export default function Home() {
   return (
@@ -35,13 +38,17 @@ export default function Home() {
       />
       <div className="px-10 w-full"><Enhance /></div>
       <Service /> */}
-      <NavbarComponent />
+         <Provider store={store}>
+          <Login />
+
       {/* <NavbarComponent /> */}
+      
+      {/* <NavbarComponent />
       <Profile />
       <ProductList/>
       <About />
       <Footer />
-      
+       */}
       {/* <NotificationBar />
       <NavbarComponent />
       <div className="px-24 w-full">
@@ -79,6 +86,7 @@ export default function Home() {
         />
         <Service />
       </div> */}
+         </Provider>
     </main>
   );
 }

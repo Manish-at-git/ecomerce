@@ -10,6 +10,8 @@ const index = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [touched, setTouched] = useState(false);
+
+  useSele
   return (
     <div className="flex mb-20 h-screen w-full">
       <div className="w-1/2 ">

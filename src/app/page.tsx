@@ -12,6 +12,7 @@ import Sidenav from "@/components/SideNav";
 import NotificationBar from "@/components/NotificationBar";
 import NewArrival from "@/components/NewArrival";
 import BannerSlider from "@/components/BannerSlider";
+import Table from "@/components/admin/Table"
 
 import { Images } from "@/constants";
 import {
@@ -24,20 +25,8 @@ import {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      {/* <MButton title="View All Products" click={() => {}} />
-      <MInput placeholder="input" change={() => {}} />
-      <MCard className="" data={data} />
-      <MBrowseByCategory
-        className=""
-        title="Browse By Category"
-        subTitle="Categories"
-        data={browseByCategory}
-      />
-      <div className="px-10 w-full"><Enhance /></div>
-      <Service /> */}
-      {/* <NavbarComponent /> */}
-      {/* <NavbarComponent /> */}
-      <NotificationBar />
+      <Table />
+      {/* <NotificationBar />
       <NavbarComponent />
       <div className="px-24 w-full">
         <div className="flex gap-10 px-10 mb-16">
@@ -92,7 +81,7 @@ export default function Home() {
         />
         <hr className="my-3" />
         <Service />
-      </div>
+      </div> */}
     </main>
   );
 }
